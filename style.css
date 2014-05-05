@@ -1,0 +1,77 @@
+
+	html {
+		font: small/1.4 "Lucida Grande", Tahoma, sans-serif;
+	}
+	
+    body {
+    background-color:#99b2b7;
+        margin: 0;
+        padding: 0;
+        border: none;
+            
+    }
+
+    .main {
+    background-color:#d9ceb2;
+        width: 500px;
+        padding:20px;
+        margin: 0 auto;
+        min-height: 300px;
+        
+        }
+
+    h1.titlehead {
+        color:#7a6a53;
+        text-align: center;
+        font-size: 4em;
+    }
+
+    input[type="text"] {
+    background:#d5ded9;
+        color: #000000;
+        border-radius: 5px;
+        width: 93%;
+        height: 30px;
+        font-size: 18px;
+        padding: 5px 3%;
+    
+    }
+#add_todo {
+    display:block;
+width: 160px;
+border-radius: 5px;
+margin: 20px auto 20px auto;
+height: 40px;
+font-size: 18px;}
+	
+	
+	
+	 div.todo {
+		background: #d5ded9;
+		min-width:350px;
+		max-width:600px;
+		min-height:25px;	
+		padding-top:2px;	
+		margin-top:10px;
+         border-radius: 5px;
+                 
+	}
+
+div.todo_description {
+font-size: 1.2em;
+font-weight: 200;}
+	
+div.todo_list > div.todo > div {
+		float:left;		
+	}
+	
+	div.todo_list > div.todo > div.todo_description {
+		margin-left:5px;}	
+
+div.red  {
+    background:#c11515;
+}
+
+div.blue {
+    background:#ffab19;
+}
